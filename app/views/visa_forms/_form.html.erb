@@ -329,7 +329,7 @@
                 <div class="row">
                   <div class="col-sm-12">
                     <% User.relation_ship_statuses.each do |status| %>                  
-                      <div class="col-sm-12" style="float: right">
+                      <div class="col-sm-4" style="float: left;">
                         <%= status[0] %>
                         <%= user.radio_button :relation_ship_status, status[1] %><br/>
                       </div>

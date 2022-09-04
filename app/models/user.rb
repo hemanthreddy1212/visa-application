@@ -29,7 +29,10 @@ class User < ApplicationRecord
   belongs_to :visa_form
 
   enum relation_ship_status: 
-    { "Married" => 0, "Seperated" => 1, "Divorced" => 2 }
+    { "Married" => 0, "Seperated" => 1, "Divorced" => 2,
+      "Engaged" => 3, "De facto" => 4, "Windowed" => 5,
+      "Never married or been in de facto relelation ship" => 6
+    }
 
   validates :family_name, 
             :given_names,
