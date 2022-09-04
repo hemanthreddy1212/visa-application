@@ -1,0 +1,36 @@
+.container {
+  margin-top: 15px;
+}
+
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+    float: left;
+    margin-left: -20px;
+}
+
+input, textarea {
+    background-color: #FFEBCD;
+}
+
+input[type="checkbox"] {
+    background-color: #FFEBCD !important;
+}
+
+.form-control {
+    background-color: #FFEBCD !important;
+}
+
+.card {
+    background-color: #FFEBCD !important;
+}
+
+.textWidth{
+    width: 100%
+}
+
+.form-group-error {
+  color: red;
+ }
+ 
